@@ -1,14 +1,10 @@
 package org.apache.maven.archetypes;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class App {
-    public static void main(String[] args) {
+
+/*    @Test
+    public static void lmgtfyTest (String[] args) {
         System.setProperty("webdriver.chrome.driver", "/home/sean/projects/selenium_java/src/main/resources/drivers/chromedriver");
 
         WebDriver driver = new ChromeDriver();
@@ -34,5 +30,5 @@ public class App {
         assert generatedUrl.equals(expectedUrl);
 
         driver.quit();
-    }
+    }*/
 }
